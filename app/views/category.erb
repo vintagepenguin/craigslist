@@ -1,0 +1,12 @@
+<ul> 
+
+<% @posts.each do |post|   %> 
+<li> Title: <%=post.title%></li> 
+<li>Description: <%=post.description  %></li> 
+<li>Contact Info:<%=post.email  %></li>
+<li>Price: $<%=post.price  %></li>
+<% end  %> 
+
+</ul> 
+
+
